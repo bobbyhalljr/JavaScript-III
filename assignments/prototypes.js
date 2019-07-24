@@ -85,8 +85,6 @@ Humanoid.prototype.greet = function(){
   return `${this.name} offers a greeting in ${this.language}`
 };
 
-Humanoid.valueOf();
-
 // Objects
   const mage = new Humanoid({
     createdAt: new Date(),
